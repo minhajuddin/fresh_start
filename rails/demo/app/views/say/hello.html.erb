@@ -1,0 +1,15 @@
+<html>
+  <head><title>Welcome to Rails</title></head>
+  <body>
+    Hello World from Rails
+    <% 3.times do -%>
+      Hello, World <br />
+      <% end %>
+      <hr />
+      My email id <%= '<minhajuddin@cosmicvent.com>' %> and <%= h('<minhajuddin@gmail.com>') %> 
+      <hr />
+      The current time is : <%= @time %>
+
+      <%= link_to "Good Bye!", :action => 'goodbye' %>
+  </body>
+</html>
