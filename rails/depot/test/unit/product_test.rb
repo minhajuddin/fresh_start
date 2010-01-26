@@ -5,4 +5,7 @@ class ProductTest < ActiveSupport::TestCase
   test "the truth" do
     assert true
   end
+  test "product throws an error when empty" do
+    p = Product.new
+
 end

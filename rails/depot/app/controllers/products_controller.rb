@@ -4,6 +4,7 @@ class ProductsController < ApplicationController
   def index
     @products = Product.all
 
+    logger.info "Listing all the products"
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @products }
@@ -41,6 +42,7 @@ class ProductsController < ApplicationController
   # POST /products.xml
   def create
     @product = Product.new(params[:product])
+    logger.info @product.inspect
 
     respond_to do |format|
       if @product.save
