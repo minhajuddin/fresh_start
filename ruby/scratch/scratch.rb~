@@ -1,0 +1,13 @@
+class Animal
+  def travel
+    puts "I am travelling"
+  end
+end
+
+class Dog < Animal
+  def travel
+    super.travel
+  end
+end
+
+Dog.new.travel
