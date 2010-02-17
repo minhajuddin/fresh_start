@@ -5,3 +5,5 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+
+Result.create([{:ht_no => '132',:full_name => 'Khaja Minhajuddin', :degree => 'Engineering'}])

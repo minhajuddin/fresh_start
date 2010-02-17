@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ht_no: MyString
+  full_name: MyString
+  degree: MyString
+
+two:
+  ht_no: MyString
+  full_name: MyString
+  degree: MyString

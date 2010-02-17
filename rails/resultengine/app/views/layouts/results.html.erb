@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Result Information</title>
+    <style type='text/css'>
+      *{margin:0}
+      body{background-color:#999;}
+      #wrapper{margin:0 auto;width:800px;}
+      #header{background-color:#ddd;font-size:3em;padding:0.5em;}
+      #content{
+        padding:1em;
+        background-color:#333;
+        color:#eee;
+      }
+      #footer{
+        background-color:#ddd;
+        font-size:0.8em;
+        padding:1em;
+      }
+
+    </style>
+  </head>
+  <body>
+  <div id='wrapper'>
+    <div id='header'>
+      Result Engine
+    </div>
+    <div id='content'>
+        <%= yield %>
+    </div>
+    <div id='footer'>
+      Result Engine &copy; 2010
+    </div>
+  </div>
+  </body>
+</html>
